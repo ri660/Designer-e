@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+/* ------------ hearde-section-Start -----------------*/
+
+section#hearde-section {
+    width: 105%;
+    height: 120vh;
+    background-image:url(images/Bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.89;
+    border-bottom: 14px solid black;
+}
+
+
+.logo img {
+    width: 150px;
+    float: left;
+}
+
+
+header {
+    width: 100%;
+    height: 63px;
+    background: #000000eb;
+    position: fixed;
+}
+
+
+/* ------------ Hearde-section-Navbar-Start -----------------*/
+
+.navbar {
+    width: 80%;
+    height: 10%;
+    margin: 0px 160px auto;
+    overflow: hidden;
+    position: fixed;
+}
+.navbar ul {
+    float: right;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition-duration: 0.2s;
+}
+.navbar li a:hover, .navbar li a.active{
+    color:#ff5722;
+}
+
+/* ------------ Hearde-section-Navbar-End -----------------*/
+
+
+
+
+/* ------------ Hearde-section-Content-Start -----------------*/
+
+.header-content {
+    width: 80%;
+    margin: auto;
+    padding: 200px 0px;
+}
+
+article.H-content {
+    width: 60%;
+    color: whitesmoke;
+}
+
+article.H-content h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+h2#txt-clr {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ff5722;
+}
+article.H-content p {
+    padding-top: 16px;
+    padding-bottom: 50px;
+    color: lightyellow;
+    text-align: justify;
+}
+
+/* ------------ Hearde-section-Content-End -----------------*/
+
+
+
+
+/* ------------ Hearde-section-Button-Start -----------------*/
+
+button.btn {
+    padding: 10px 30px;
+    margin: 0px 0px;
+    margin-right: 30px;
+    font-size: 16px;
+    border: none;
+    background: #00000082;
+    color: white;
+    transition-duration: 0.2s;
+    text-transform: uppercase;
+}
+
+button.btn:hover{
+    color: #ff5722;
+    background-color: black;
+}
+
+
+/* ------------ Hearde-section-Button-End -----------------*/
+
+
+
+
+/* ------------ Hearde-section-Social-Link-Start -----------------*/
+
+.social-icon {
+    width: 34%;
+    height: 50px;
+}
+
+.social-icon i{
+    font-size: 50px;
+    padding: 0px 20px;
+    margin-top: 70px;
+    color: #ff5722;
+    transition-duration: 0.3s;
+}
+
+.social-icon i:hover{
+    color: black;
+}
+
+/* ------------ Hearde-section-Social-Link-End -----------------*/
+
+/* ------------ hearde-section-End -----------------*/
+
+
+
+
+/* ------------ About Section Start -----------------*/
+
+#About-section {
+    width: 100%;
+    height: 770px;
+    background-color: white;
+}
+.About-container {
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+
+/* ---------- About Section-Top-Content  ------------- */
+
+.top-text h1 {
+    justify-content: center;
+    display: flex;
+    padding: 114px 0px;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+/* ---------- About-Section-images & Content-Start ------------- */
+
+.left-content img {
+    width: 500px;
+    float: left;    box-shadow: 10px -10px 10px 0px grey;
+}
+
+.right-content {
+    float: right;
+    display: block;
+    width: 45%;
+    text-align: justify;
+}
+
+.right-content h2 {
+    padding-bottom: 10px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.right-content p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* ---------- About-Section-images & Content-End ------------- */
+
+
+/* ---------- About-Section-Button  ------------- */
+
+button.About-btn {
+    padding: 10px 40px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    transition-duration: 0.3s;
+}
+
+button.About-btn:hover{
+    background-color: #ff5722;
+    color: black;
+}
+
+
+/* ---------- About-Section-Button End  ------------- */
+
+
+/* ------------ About-Section-End -----------------*/
+
+
+
+
+/* ---------- Services-section-Start  ------------- */
+
+#Services-section {
+    width: 100%;
+    height: 1180px;
+    background: #f5f7ffd1;
+}
+.services-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-bottom: 130px;
+}
+
+ .Services-top-text {
+   
+    width: 100%;
+    height: 440px
+} 
+
+.Services-top-text h1 {
+  
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+    font-size: 45px;
+}
+
+.Services-top-text p {
+    display: block;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* ---------- Services-section-Box-Start  ------------- */
+.Box-Container {
+    width: 100%;
+    display: block;
+    height: 871px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -5%;
+}
+
+.box {
+    width: 350px;
+    height: 300px;
+    border-radius: 8px;
+    background: #d3d3d347;
+    text-align: center;
+    padding: 40px 30px;
+    transition-duration: 1s;
+   
+}
+
+
+
+.box img {
+    width: 150px;
+}
+
+.box p {
+    padding: 10px 0px;
+}
+
+.box:hover{
+    box-shadow: 1px 15px 40px 0px grey;
+    transform: scale(1.05);
+}
+
+/* ---------- Services-section-Box-End  ------------- */
+
+
+
+/* ----------  Project-content-Start  ------------- */
+
+
+/*   Project-H1-P-Content */
+
+.Project-h1-p-content {
+    text-align: center;
+    width: 25%;
+    height: 380px;
+    padding-top: 110px;
+    margin: auto;
+}
+.Project-h1-p-content h1 {
+    font-size: 45px;
+}
+.Project-h1-p-content p {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+
+
+/* ----------  Project-img-Box-Start ------------- */
+.Project-images {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+
+.Project-1 {
+    margin: 20px;
+}
+
+.Project-1 img {
+    width: 360px;
+    border-radius: 18px;
+    border: 1px solid gray;
+    box-shadow: 0px 10px 34px -10px;
+}
+
+.ex {
+    text-align: center;
+    padding: 80px;
+}
+
+button.exbtn {
+    padding: 12px 30px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    text-decoration: 2s;
+}
+
+.exbtn:hover {
+   background-color: #796767;
+   transition-duration: 1s;
+}
+
+/* ----------  Customer-content-Start  ------------- */
+
+div#CustomersTxt {
+    width: 40%;
+    margin: auto;
+}
+#CustomersTxt h1 {
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+div#CustomersTxt p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.coustomer-bg {
+    background: gainsboro;
+    padding-top: 120px;
+}
+.CustomersLogo {
+    width: 90%;
+    margin: auto;
+    padding: 80px 0px; 
+}
+
+.cLogo {
+    display: inline;
+}
+
+.cLogo img {
+    width: 300px;
+}
+
+
+
+.ClientTxt h1 {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 120px;
+}
+
+.client {
+    width: 90%;
+    margin: auto;
+    padding: 90px 0px;
+}
+.client-pic {
+    display: inline-block;
+}
+
+
+.client-pic img {
+    width: 340px;
+    margin: 0px 30px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.CLT {
+    text-align: center;
+    padding-top: 30px;
+}

@@ -184,9 +184,8 @@ button.btn:hover{
 }
 
 .right-content {
-    float: right;
-    display: block;
-    width: 45%;
+    overflow: hidden;
+    padding-left: 100px;
     text-align: justify;
 }
 
